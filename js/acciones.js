@@ -1,6 +1,8 @@
 // JavaScript Document
 function loginConectar(U,P)
 {
+	alert(U);
+		alert(P);
 	datos= "usuario="+U+"&password="+P;
 	$.ajasx({
 		type:"POST",
