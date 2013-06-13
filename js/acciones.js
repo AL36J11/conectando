@@ -19,6 +19,7 @@ function loginConectar(U,P)
 $(document).ready (function (e) {
 	document.addEventListener("deviceready", function(){
 		$('.Enviar').tap(function(){
+			alert ("dentro");
 			var formulario= $(this).parents('form');
 			var usuario = document.getelementByID('Usiario').value;
 			var password = document.getelementByID('Password').value;
