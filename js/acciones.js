@@ -22,7 +22,9 @@ $(document).ready (function (e) {
 			alert ("dentro");
 			var formulario= $(this).parents('form');
 			var usuario = document.getElementByID('Usuario').value;
+				alert (usuario);
 			var password = document.getElementByID('Password').value;
+			alert (password);
 			loginConectar(usuario,password);
 		});
 		
