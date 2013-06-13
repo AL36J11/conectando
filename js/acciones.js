@@ -6,7 +6,7 @@ function loginConectar(U,P)
 	datos= "usuario="+U+"&password="+P;
 	$.ajasx({
 		type:"POST",
-		url:"192.168.1.197/Sitio6/log_in_m.php",
+		url:"192.168.1.174/Sitio6/log_in_m.php",
 		data: datos,
 	}).done(function(msg){
 		alert(msg);
