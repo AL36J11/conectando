@@ -21,7 +21,7 @@ $(document).ready (function (e) {
 		$('.Enviar').tap(function(){
 			alert ("dentro");
 			var formulario= $(this).parents('form');
-			var usuario = document.getelementByID('Usiario').value;
+			var usuario = document.getelementByID('Usuario').value;
 			var password = document.getelementByID('Password').value;
 			loginConectar(usuario,password);
 		});
