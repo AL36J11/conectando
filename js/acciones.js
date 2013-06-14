@@ -16,7 +16,7 @@ function loginConectar(U,P)
 		else
 		
 		{
-			var OUsuario=jQuery.parseJSON(msj);
+			var OUsuario=jQuery.parseJSON(msg);
 			ID_Usuario=OUsuario.Usuario;
 			alert("Bienvenido "+ ID_Usuario);
 			location.href="#Busqueda";
