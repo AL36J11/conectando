@@ -29,9 +29,9 @@ $(document).ready (function (e) {
 		$('.Enviar').tap(function(){
 			alert ("dentro");
 			var formulario= $(this).parents('form');
-			var usuario = document.getElementByID('Usuario').value;
+			var usuario = document.getElementById('Usuario').value;
 				alert (usuario);
-			var password = document.getElementByID('Password').value;
+			var password = document.getElementById('Password').value;
 			alert (password);
 			loginConectar(usuario,password);
 		});
